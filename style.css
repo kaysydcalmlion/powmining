@@ -1,0 +1,148 @@
+html, body{
+    /* margin: 0;
+    padding: 0; */
+}
+.wrapper{
+    display:block ;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+}
+.wrapper  .image{
+    width: 5%;
+    margin-left: 340px;
+    margin-top: 10px;
+
+}
+.logo{
+    margin: -5px auto 20px auto;
+}
+.container{
+    width: 380px; 
+    height: 48vh;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid  #ae805c;
+    border-radius: 10px;
+}
+h2{
+    font-size: 25px;
+    font-family: Arial;
+    color: #e8b283;
+}
+span{
+    position: relative;
+    left: -128px;
+    top: 31px;
+    font-size: 13px;
+    font-family: arial;
+    color: rgb(78, 76, 76);
+}
+.fa-mobile{
+    position: relative;
+    top: 32px;
+    left: -184px;
+    color: #e8b283;
+}
+.container input[type="text"]{
+    width: 60%;
+    padding: 10px 65px;
+    margin: 5px auto;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+.container input[type="text"]:focus{
+    outline: none;
+}
+input[type="password"]{
+    width: 77%;
+    padding: 10px 35px;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+input[type="password"]:focus{
+    outline: none;
+}
+.fa-lock{
+    position: relative;
+    top: 46px;
+    left: -166px;
+    color: #e8b283;
+}
+.container input[type="button"]{
+    width: 90%;
+    padding: 12px;
+    margin-top:10px ;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #fdca93, #eca15d);
+    font-weight: bold;
+    color: #fff;
+}
+.container input[type="button"]:hover{
+    background:#fdca93;
+}
+.container + p{
+    font-size: 11.5px;
+    font-family: arial;
+    letter-spacing: 0.5px;
+}
+.container + p a{
+    color: #886042;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer a{
+    font-size: 16px;
+    font-family: arial;
+    color: #886042;
+    text-decoration: none;
+}
+.wrapper > img:nth-child(even){
+    margin-top: -30px;
+}
+
+
+@media  screen and (max-width: 420px){
+    .container{
+        width:auto;
+        height: 55vh;
+        margin:0 auto;
+        padding: 10px;
+    }
+    .wrapper .image{
+        width: 12%;
+        margin-left:340px;
+    }
+    .logo{
+        width: 300%;
+        margin: 0 auto 20px -380px;
+    }
+    .container input[type="button"]{
+        width: 95%;
+    }
+    .container ~ img{
+        width: 140px;
+        padding: 1px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
