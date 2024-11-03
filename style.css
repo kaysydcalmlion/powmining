@@ -108,11 +108,12 @@ input[type="password"]:focus{
     margin-top: -30px;
 }
 
-/* @media  screen and (min-width: ){} */
+
 
 @media  screen and (max-width: 400px){
     .wrapper{
-        margin:auto;
+        margin-left: 0;
+        margin-bottom: 0;
     }
     .container{
         width:auto;
