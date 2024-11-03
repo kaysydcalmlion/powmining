@@ -110,6 +110,9 @@ input[type="password"]:focus{
 /* @media  screen and (min-width: ){} */
 
 @media  screen and (max-width: 400px){
+    .wrapper{
+        margin:auto;
+    }
     .container{
         width:auto;
         height: 38vh;
