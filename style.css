@@ -112,7 +112,7 @@ input[type="password"]:focus{
 @media  screen and (max-width: 400px){
     .container{
         width:auto;
-        height: 40vh;
+        height: 30vh;
     }
     .wrapper .image{
         width: 12%;
@@ -125,9 +125,6 @@ input[type="password"]:focus{
     .container input[type="button"]{
         width: 95%;
     }
-    /* .fa-mobile{
-        margin: 0 auto;
-    } */
     .container ~ img{
         width: 140px;
         padding: 1px;
@@ -152,7 +149,10 @@ input[type="password"]:focus{
         left: -147px;
         color: #e8b283;
     }
-}
+    .container input[type="button"]{
+        margin-bottom: ;
+    } 
+} 
 
 
 
