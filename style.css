@@ -19,7 +19,7 @@ html, body{
 }
 .container{
     width: 380px; 
-    height: 46vh;
+    /* height: 46vh; */
     margin: 0 auto;
     padding: 20px;
     border: 1px solid  #ae805c;
@@ -74,7 +74,6 @@ input[type="password"]:focus{
     width: 90%;
     padding: 12px;
     margin-top:10px ;
-    margin-bottom: 10px;
     border: none;
     border-radius: 20px;
     background: linear-gradient(to right, #fdca93, #eca15d);
@@ -111,9 +110,8 @@ input[type="password"]:focus{
 
 
 @media  screen and (max-width: 400px){
-    .wrapper{
-        margin-left: 0;
-        margin-bottom: 0;
+    html, body{
+        margin:auto 0 0 auto ;
     }
     .container{
         width:auto;
