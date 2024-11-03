@@ -19,7 +19,7 @@ html, body{
 }
 .container{
     width: 380px; 
-    height: 48vh;
+    /* height: 48vh; */
     margin: 0 auto;
     padding: 10px;
     border: 1px solid  #ae805c;
@@ -112,7 +112,7 @@ input[type="password"]:focus{
 @media  screen and (max-width: 400px){
     .container{
         width:auto;
-        height: auto;
+        height: 50vh;
     }
     .wrapper .image{
         width: 12%;
@@ -120,17 +120,37 @@ input[type="password"]:focus{
     }
     .logo{
         width: 300%;
-        margin: 0 auto 20px -380px;
+        margin: 0 auto 20px -360px;
     }
     .container input[type="button"]{
         width: 95%;
     }
-    .fa-mobile{
+    /* .fa-mobile{
         margin: 0 auto;
-    }
+    } */
     .container ~ img{
         width: 140px;
         padding: 1px;
+    }
+    span{
+        position: relative;
+        left: -108px;
+        top: 31px;
+        font-size: 13px;
+        font-family: arial;
+        color: rgb(78, 76, 76);
+    }
+    .fa-mobile{
+        position: relative;
+        top: 32px;
+        left: -166px;
+        color: #e8b283;
+    }
+    .fa-lock{
+        position: relative;
+        top: 46px;
+        left: -147px;
+        color: #e8b283;
     }
 }
 
