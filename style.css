@@ -19,7 +19,7 @@ html, body{
 }
 .container{
     width: 380px; 
-    /* height: 48vh; */
+    height: 46vh;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid  #ae805c;
@@ -149,9 +149,6 @@ input[type="password"]:focus{
         left: -147px;
         color: #e8b283;
     }
-    .container input[type="button"]{
-        margin-bottom: ;
-    } 
 } 
 
 
